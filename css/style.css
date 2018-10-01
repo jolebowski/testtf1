@@ -1,0 +1,110 @@
+/*
+* Tf1test
+* Build Date: September 2018
+* Author: Jordan
+*/
+
+/*
+  TABLE OF CONTENTS
+  --------------------------------
+   TABLE OF CONTENTS
+  --------------------------------
+  *. 1 - Menu ...................
+  *. 2 - General Styles ..........
+  *. 3 - Media Queries ..........
+  *. 4 - Footer styles ..........
+
+  --------------------------------
+
+
+*/
+
+/* ------------------------------------- */
+
+/* *. 1 - menu ........................ */
+
+/* ------------------------------------- */
+
+nav .brand-logo {
+  padding-left: 80px;
+  color: #666666;
+}
+
+#nav-mobile {
+  padding-right: 50px;
+}
+
+#hamburger-menu {
+  float: right;
+}
+nav{
+  background-color: #FFFFFF;
+}
+nav ul a {
+  color: #666666;
+}
+/* ------------------------------------- */
+
+/* *. 2 - General Styles ............... */
+
+/* ------------------------------------- */
+.row p {
+  text-align: -webkit-left;
+  text-align: -moz-left;
+  text-align: -ms-left;
+  text-align: -o-left;
+}
+h5{
+  text-align: -webkit-left;
+  text-align: -moz-left;
+  text-align: -ms-left;
+  text-align: -o-left;
+  margin-left: 35px;
+}
+#icons{
+  float: left;
+}
+
+#carousel-img{
+  display:flex
+}
+/* ------------------------------------- */
+
+/* *. 3 - Media Queries ............... */
+
+/* ------------------------------------- */
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 17%;
+  }
+
+  #icons{
+    float: inherit;
+    text-align: center;
+  }
+
+  h5{
+    text-align: center;
+  margin-right: 0;
+  }
+  .row p {
+    text-align: center;
+  }
+  .main-section{
+    margin-top: 10px;
+  }
+  #carousel-img{
+    display:block
+  }
+}
+
+/* ------------------------------------- */
+
+/* *. 4 - Footer styles ............... */
+
+/* ------------------------------------- */
+
+.page-footer {
+  background-color: #2B2A2A;
+}
